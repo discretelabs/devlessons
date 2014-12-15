@@ -5,6 +5,9 @@
 > FATAL:  lock file "postmaster.pid" already exists
 > HINT:  Is another postmaster (PID 347) running in data directory "/usr/local/var/postgres"?
 
+
+
+0. `$ brew info postgresql`
 1. `$ cd /usr/local/var/postgres`
 2. `$ rm postmaster.pid`
 3. `$ launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist`
