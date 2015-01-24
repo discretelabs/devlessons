@@ -6,3 +6,6 @@ Run migration on heroku <br>
 
 Restart app on heroku <br>
 `heroku restart --app name-of-your-app`
+
+Add remote for existing repo
+`git remote add heroku git@heroku.com:project.git`
