@@ -9,3 +9,6 @@ Restart app on heroku <br>
 
 Add remote for existing repo
 `git remote add heroku git@heroku.com:project.git`
+
+Heroku app page won't load
+* Make sure a root route is configure for the app
