@@ -6,3 +6,9 @@
 ##### Remove twitter bootstrap
 * `rake assets:clean`
 * `rails destroy bootstrap:install`
+
+##### Fix error after bundle update
+CLIENT: 1.1.3, SERVER: 1.1.2
+* spring stop
+* stop rails server
+* restart rails server
