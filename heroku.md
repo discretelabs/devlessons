@@ -5,7 +5,10 @@
 `heroku run rake --trace db:migrate --app name-of-your-app`
 
 #### Restart app on heroku <br>
-`heroku restart --app name-of-your-app`
+`heroku restart --app name-of-your-app` 
+
+#### Heroku logs <br>
+`heroku logs --tail`
 
 #### Add remote for existing repo
 `git remote add heroku git@heroku.com:project.git`
