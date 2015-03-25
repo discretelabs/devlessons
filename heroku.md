@@ -10,6 +10,9 @@
 #### Heroku logs <br>
 `heroku logs --tail`
 
+#### Rename app
+`heroku apps:rename NEWNAME --app APP`
+
 #### Add remote for existing repo
 `git remote add heroku git@heroku.com:project.git`
 
