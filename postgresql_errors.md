@@ -5,7 +5,10 @@
 > FATAL:  lock file "postmaster.pid" already exists
 > HINT:  Is another postmaster (PID 347) running in data directory "/usr/local/var/postgres"?
 
+#Remove postgre socket id
+`$ rm /usr/local/var/postgres/postmaster.pid`
 
+then
 
 0. `$ brew info postgresql`
 1. `$ cd /usr/local/var/postgres`
